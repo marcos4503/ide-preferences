@@ -1,0 +1,205 @@
+{
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE DEFAULT: Theme
+    "workbench.colorTheme": "Default Light+",
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE DEFAULT: Editor
+    "editor.showFoldingControls": "always",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.links": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.wrapLineLength": 240,
+    "html.format.unformatted": "doc.tabler,doc.listr,doc.code",
+    "json.format.keepLines": true,
+    "php.validate.enable": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none",
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "css.format.enable": false,
+    "git.ignoreMissingGitWarning": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+    "dotnet.codeLens.enableReferencesCodeLens": false,
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Commands
+    "commands.statusBarDefaultPosition": "right",
+    "commands.commands": {
+        // More Codicons To Commands At https://code.visualstudio.com/api/references/icons-in-labels
+        "Open Command Palette": {
+            "icon": "list-unordered",
+            "sequence": [
+                {
+                    "command": "commands.tree.focus",
+                },
+                {
+                    "command": "workbench.action.showCommands",
+                },
+            ],
+            "statusBar": {
+                "alignment": "left",
+                "text": "Command Palette",
+                "priority": 0,
+            },
+        },
+        "Open Terminal": {
+            "icon": "console",
+            "command": "workbench.action.terminal.toggleTerminal",
+            "statusBar": {
+                "alignment": "left",
+                "text": "Terminal",
+                "priority": 0,
+            },
+        },
+        "Open JSON Settings": {
+            "icon": "settings-more-action",
+            "command": "workbench.action.openSettingsJson",
+        },
+        "Open Workspace JSON Settings": {
+            "icon": "settings",
+            "command": "workbench.action.openWorkspaceSettingsFile",
+        },
+        "Quick Commands": {
+            "nestedItems": {
+                "Save All Files And Reload": {
+                    "icon": "panel-close",
+                    "sequence": [
+                        {
+                            "command": "saveAll",
+                        },
+                        {
+                            "command": "workbench.action.reloadWindow",
+                        },
+                    ]
+                }
+            }
+        },
+        "Extensions Commands": {
+            "nestedItems": {
+                "Open Markdown Preview": {
+                    "icon": "eye",
+                    "command": "markdown.showPreview"
+                },
+                "Open Color Picker": {
+                    "icon": "symbol-color",
+                    "command": "extension.cm_open_picker",
+                },
+            }
+        },
+        "        Open Commands Tree   ": {
+            "command": "commands.tree.focus",
+            "statusBar": {
+                "alignment": "right",
+                "text": "❙                                  ❙",
+                "priority": 9000,
+            },
+        },
+        "Reload Window": {
+            "icon": "extensions-refresh",
+            "command": "workbench.action.reloadWindow",
+            "statusBar": {
+                "alignment": "right",
+                "text": "Reload Window",
+                "priority": 9001,
+            },
+        },
+        "Fold All Regions": {
+            "icon": "chevron-up",
+            "command": "editor.foldAllMarkerRegions",
+            "statusBar": {
+                "alignment": "right",
+                "text": "Fold All Regions",
+                "priority": 9003,
+            },
+        },
+        "Unfold All Regions": {
+            "icon": "chevron-down",
+            "command": "editor.unfoldAllMarkerRegions",
+            "statusBar": {
+                "alignment": "right",
+                "text": "Unfold All Regions",
+                "priority": 9002,
+            },
+        },
+        "Open Color Picker ": {
+            "icon": "symbol-color",
+            "command": "extension.cm_open_picker",
+            "statusBar": {
+                "alignment": "right",
+                "text": "Open Color Picker",
+                "priority": 9004,
+            },
+        },
+    },
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Shortcut Menu Bar
+    "ShortcutMenuBar.beautify": false,
+    "ShortcutMenuBar.openFilesList": false,
+    "ShortcutMenuBar.save": true,
+    "ShortcutMenuBar.saveAll": true,
+    "ShortcutMenuBar.toggleTerminal": false,
+    "ShortcutMenuBar.navigateForward": false,
+    "ShortcutMenuBar.navigateBack": false,
+    "ShortcutMenuBar.userButton01Command": "editor.foldLevel1",
+    "ShortcutMenuBar.userButton02Command": "editor.foldLevel2",
+    "ShortcutMenuBar.userButton03Command": "editor.foldLevel3",
+    "ShortcutMenuBar.userButton04Command": "editor.foldLevel4",
+    "ShortcutMenuBar.userButton05Command": "editor.unfoldAll",
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: C/C++ Compile Run
+    "c-cpp-compile-run.run-in-external-terminal": true,
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: C/C++
+    "C_Cpp.commentContinuationPatterns": [
+        "/**"
+    ],
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: VSCode Icons
+    "vsicons.dontShowNewVersionMessage": true,
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Path Autocomplete
+    "path-autocomplete.excludedItems": {
+        "**/*.meta": {
+            "when": "**"
+        }
+    },
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Color Highlight
+    "color-highlight.languages": [
+        "*"
+    ],
+    "color-highlight.markRuler": false,
+    "color-highlight.matchWords": true,
+    "color-highlight.markerType": "underline",
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Color Manager
+    "color-manager.styles": {
+        "background": "#ebebeb",
+    },
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Open In Browser
+    "open-in-browser.default": "Microsoft Edge",
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: PHP Intelephense
+    "intelephense.completion.maxItems": 125,
+    "intelephense.environment.phpVersion": "8.1.2",
+    "intelephense.format.enable": false,
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: json
+    "JSON-zain.json.autorefresh": true,
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Text Marker
+    "textmarker.savedHighlights": [
+        {
+            "pattern": {
+                "type": "string",
+                "expression": "=>",
+                "ignoreCase": false,
+                "wholeMatch": false
+            },
+            "color": "darkgray"
+        }
+    ],
+    "textmarker.commandsOnContextMenu": {
+        "updateHighlight": false,
+        "clearAllHighlight": false
+    },
+    "textmarker.defaultHighlightOpacity": 0.3,
+    "textmarker.enableTelemetry": false,
+    "textmarker.hideStatusBarItems": true,
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Markdown All In One
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Active File In Status Bar
+    "ActiveFileInStatusBar.color": "#dbdbdb",
+}
