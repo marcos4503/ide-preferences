@@ -11,6 +11,7 @@
     "html.format.unformatted": "doc.tabler,doc.listr,doc.code",
     "json.format.keepLines": true,
     "php.validate.enable": false,
+    "php.validate.executablePath": "C:\\\\Users\\\\junio\\\\Documents\\\\VS Code PHP\\\\php.exe",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "workbench.iconTheme": "vscode-icons",
@@ -59,6 +60,10 @@
     // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: PHP Intelephense
     "intelephense.completion.maxItems": 125,
     "intelephense.format.enable": false,
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: HTML CSS Support
+    "css.enabledLanguages": [ "html", "htm", "php" ],
+    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Auto Rename Tag
+    "auto-rename-tag.activationOnLanguage": [ "*" ],
     // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: JSON
     "JSON-zain.json.autorefresh": true,
     // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Text Marker (Highlighter)

@@ -7,7 +7,7 @@ Layouts in screenshots.
 
 ### Visual Studio Code
 
-<img src="This-Repository/vs-code-0.png" />
+<img src="This-Repository/vs-code-1.png" />
 
 ### Visual Studio 2022
 
