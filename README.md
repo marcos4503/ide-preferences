@@ -22,3 +22,7 @@ Layouts in screenshots.
 
 <img src="This-Repository/android-studio-0.png" />
 <img src="This-Repository/android-studio-1.png" />
+
+### IntelliJ IDEA
+
+<img src="This-Repository/intellij-idea-0.png" />
