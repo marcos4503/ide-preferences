@@ -9,10 +9,11 @@ Layouts in screenshots.
 
 <img src="This-Repository/vs-code-1.png" />
 
-### Visual Studio 2022
+### Visual Studio 2026
 
-<img src="This-Repository/vs-2022-0.png" />
-<img src="This-Repository/vs-2022-1.png" />
+<img src="This-Repository/vs-2026-0.png" />
+<img src="This-Repository/vs-2026-1.png" />
+<img src="This-Repository/vs-2026-2.png" />
 
 ### Unity
 
