@@ -2,6 +2,7 @@
     // ───────────────────────────────────────────── SETTINGS FOR VSCODE DEFAULT: Theme
     "workbench.colorTheme": "Default Light+",
     // ───────────────────────────────────────────── SETTINGS FOR VSCODE DEFAULT: Editor
+    "editor.codeLens": false,
     "editor.showFoldingControls": "always",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -25,6 +26,10 @@
     "git.openRepositoryInParentFolders": "never",
     "workbench.layoutControl.enabled": false,
     "workbench.navigationControl.enabled": false,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "window.density.editorTabHeight": "compact",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
     // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Shortcut Menu Bar
     "ShortcutMenuBar.beautify": false,
     "ShortcutMenuBar.openFilesList": false,
