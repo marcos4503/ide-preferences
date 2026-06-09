@@ -27,3 +27,4 @@ Layouts in screenshots.
 ### IntelliJ IDEA
 
 <img src="This-Repository/intellij-idea-0.png" />
+<img src="This-Repository/intellij-idea-1.png" />
