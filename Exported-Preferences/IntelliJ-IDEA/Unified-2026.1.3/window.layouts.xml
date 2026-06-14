@@ -221,7 +221,7 @@
           "contentUiType": "COMBO",
           "isActiveOnStart": true,
           "isVisible": true,
-          "weight": 0.13105468,
+          "weight": 0.20174307,
           "sideWeight": 0.50051975
         },
         {
@@ -288,13 +288,13 @@
           "id": "Build",
           "order": 6,
           "anchor": "BOTTOM",
-          "weight": 0.32994187
+          "weight": 0.32989067
         },
         {
           "id": "Run",
           "order": 7,
           "anchor": "BOTTOM",
-          "weight": 0.32994187
+          "weight": 0.32989067
         },
         {
           "id": "Code Provenance",
@@ -326,7 +326,7 @@
           "isAutoHide": true,
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.13964844
+          "weight": 0.15913492
         },
         {
           "id": "AIAssistant",
@@ -349,7 +349,7 @@
           "isAutoHide": true,
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.20136718
+          "weight": 0.23660426
         },
         {
           "id": "github.copilotToolWindow",
@@ -358,7 +358,7 @@
           "isAutoHide": true,
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.20136718
+          "weight": 0.23660426
         },
         {
           "id": "Maven",
@@ -367,7 +367,7 @@
           "isAutoHide": true,
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.13964844,
+          "weight": 0.15913492,
           "isSplit": true
         },
         {
@@ -377,15 +377,15 @@
           "isAutoHide": true,
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.13964844,
+          "weight": 0.15913492,
           "isSplit": true
         }
       ],
       "unifiedWeights": {
         "top": 0.33,
-        "left": 0.13105468,
-        "bottom": 0.32994187,
-        "right": 0.20136718
+        "left": 0.20174307,
+        "bottom": 0.32989067,
+        "right": 0.23660426
       }
     }
   }
