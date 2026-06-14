@@ -31,21 +31,21 @@
           "contentUiType": "COMBO",
           "isActiveOnStart": true,
           "isVisible": true,
-          "weight": 0.14042969,
-          "sideWeight": 0.50051975
+          "weight": 0.14121094,
+          "sideWeight": 0.50103843
         },
         {
           "id": "Structure",
           "order": 1,
-          "weight": 0.14042969,
-          "sideWeight": 0.49948025,
+          "weight": 0.14121094,
+          "sideWeight": 0.49896157,
           "isSplit": true
         },
         {
           "id": "Commit",
           "order": 2,
-          "weight": 0.14042969,
-          "sideWeight": 0.49948025,
+          "weight": 0.14121094,
+          "sideWeight": 0.49896157,
           "isSplit": true
         },
         {
@@ -130,7 +130,7 @@
           "isAutoHide": true,
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.13964844
+          "weight": 0.14082031
         },
         {
           "id": "AIAssistant",
@@ -181,15 +181,15 @@
           "isAutoHide": true,
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.13964844,
+          "weight": 0.14082031,
           "isSplit": true
         }
       ],
       "unifiedWeights": {
         "top": 0.33,
-        "left": 0.14042969,
+        "left": 0.14121094,
         "bottom": 0.32994187,
-        "right": 0.20136718
+        "right": 0.14082031
       }
     },
     "NB_Enhanced": {

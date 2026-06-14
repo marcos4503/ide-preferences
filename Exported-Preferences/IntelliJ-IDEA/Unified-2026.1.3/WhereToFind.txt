@@ -1,6 +1,6 @@
-The IntelliJ IDEA .zip file should be Imported using the IDE option.
+The IntelliJ IDEA .zip file should be Imported using the IDE option, first.
+
 The IntelliJ IDEA "window.layouts.xml" should be placed on path below...
-%APPDATA%\Code\User
 %APPDATA%\JetBrains\IntelliJIdea<IDE-VERSION>\options
 
 Exemple:
