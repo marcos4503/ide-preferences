@@ -1,0 +1,8 @@
+The Android Studio .zip file should be Imported using the IDE option, first.
+
+The Android Studio "window.layouts.xml" should be placed on path below...
+%APPDATA%\Google\AndroidStudio<IDE-VERSION>\options
+
+Exemple:
+
+%APPDATA%\Google\AndroidStudio2026.1.1\options
