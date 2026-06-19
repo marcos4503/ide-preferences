@@ -366,32 +366,32 @@
           "contentUiType": "COMBO",
           "isActiveOnStart": true,
           "isVisible": true,
-          "weight": 0.14121094,
+          "weight": 0.20174307,
           "sideWeight": 0.50103843
         },
         {
           "id": "Resources Explorer",
           "order": 2,
-          "weight": 0.14121094
+          "weight": 0.20174307
         },
         {
           "id": "Structure",
           "order": 4,
-          "weight": 0.14121094,
+          "weight": 0.20174307,
           "sideWeight": 0.49896157,
           "isSplit": true
         },
         {
           "id": "Build Variants",
           "order": 5,
-          "weight": 0.14121094,
+          "weight": 0.20174307,
           "sideWeight": 0.49896157,
           "isSplit": true
         },
         {
           "id": "Commit",
           "order": 6,
-          "weight": 0.14121094
+          "weight": 0.20174307
         },
         {
           "id": "Flutter Deep Links",
@@ -488,7 +488,7 @@
           "isAutoHide": true,
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.14121094
+          "weight": 0.16042608
         },
         {
           "id": "Device Manager",
@@ -503,7 +503,7 @@
           "isAutoHide": true,
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.20214844
+          "weight": 0.23660426
         },
         {
           "id": "github.copilotToolWindow",
@@ -512,7 +512,7 @@
           "isAutoHide": true,
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.20214844
+          "weight": 0.23724984
         },
         {
           "id": "StudioBot",
@@ -521,7 +521,7 @@
           "isAutoHide": true,
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.20214844
+          "weight": 0.23660426
         },
         {
           "id": "Assistant",
@@ -540,35 +540,35 @@
           "id": "Flutter Widget Preview",
           "order": 18,
           "anchor": "RIGHT",
-          "weight": 0.20097657,
+          "weight": 0.2353131,
           "isSplit": true
         },
         {
           "id": "Flutter Property Editor",
           "order": 19,
           "anchor": "RIGHT",
-          "weight": 0.20097657,
+          "weight": 0.2353131,
           "isSplit": true
         },
         {
           "id": "Flutter DevTools",
           "order": 20,
           "anchor": "RIGHT",
-          "weight": 0.20097657,
+          "weight": 0.23595868,
           "isSplit": true
         },
         {
           "id": "Flutter DevTools Extensions",
           "order": 21,
           "anchor": "RIGHT",
-          "weight": 0.20097657,
+          "weight": 0.23595868,
           "isSplit": true
         },
         {
           "id": "Running Devices",
           "order": 22,
           "anchor": "RIGHT",
-          "weight": 0.20097657,
+          "weight": 0.2353131,
           "isSplit": true
         },
         {
@@ -578,7 +578,7 @@
           "isAutoHide": true,
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.20214844,
+          "weight": 0.23724984,
           "isSplit": true
         },
         {
@@ -588,7 +588,7 @@
           "isAutoHide": true,
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.20175782,
+          "weight": 0.23724984,
           "isSplit": true
         },
         {
@@ -611,15 +611,15 @@
           ],
           "type": "SLIDING",
           "internalType": "SLIDING",
-          "weight": 0.14160156,
+          "weight": 0.16042608,
           "isSplit": true
         }
       ],
       "unifiedWeights": {
         "top": 0.33,
-        "left": 0.14121094,
-        "bottom": 0.32994187,
-        "right": 0.20214844
+        "left": 0.20174307,
+        "bottom": 0.26549208,
+        "right": 0.23724984
       }
     }
   }
