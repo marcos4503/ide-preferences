@@ -5,7 +5,7 @@ In this repository, you will find the Preferences, Layouts, Settings files, expo
 
 Layouts in screenshots.
 
-### Visual Studio Code
+### VS Code
 
 <img src="This-Repository/vs-code-1.png" />
 
