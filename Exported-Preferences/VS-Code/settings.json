@@ -1,77 +1,188 @@
 {
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE DEFAULT: Theme
-    "workbench.colorTheme": "Default Light+",
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE DEFAULT: Editor
+    // ─────────────────────────────── SETTINGS FOR VSCODE DEFAULT: Theme ─────────────────────────────── //
+    "workbench.colorTheme": "Light+",
+    "workbench.colorCustomizations": {
+        "[Light+]": {
+            "titleBar.activeBackground": "#cae0e4",
+            "titleBar.activeForeground": "#333333",
+            "titleBar.inactiveBackground": "#cbcbcb",
+            "titleBar.inactiveForeground": "#666666",
+            "editor.background": "#ffffff",
+            "editorRuler.foreground": "#f0f0f0",
+            "editorIndentGuide.background1": "#eeeeee",
+            "editorIndentGuide.activeBackground1": "#d0d0d0",
+            "activityBar.background": "#e9eaee",
+            "activityBar.foreground": "#000000",
+            "activityBar.inactiveForeground": "#6f6f6f",
+            "activityBar.border": "#d1d1d1",
+            "sideBar.background": "#fafafd",
+            "sideBar.border": "#dddddd",
+            "sideBarSectionHeader.border": "#dddddd",
+            "list.activeSelectionBackground": "#eaeaea",
+            "list.activeSelectionForeground": "#222222",
+            "list.hoverBackground": "#f5f5f5",
+            "list.inactiveSelectionBackground": "#f0f0f0",
+            "list.inactiveSelectionForeground": "#222222",
+            "tree.indentGuidesStroke": "#ebebeb",
+            "statusBar.noFolderBackground": "#96b2b8",
+            "statusBar.noFolderForeground": "#ffffff",
+            "statusBar.noFolderBorder": "#84999d",
+            "statusBar.background": "#5c6668",
+            "statusBar.foreground": "#ffffff",
+            "statusBar.border": "#4d5557",
+            "statusBar.debuggingBackground": "#5649b0",
+            "statusBar.debuggingForeground": "#ffffff",
+            "statusBar.debuggingBorder": "#473c93"
+        }
+    },
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    // ─────────────────────────────── SETTINGS FOR VSCODE DEFAULT: Editor ─────────────────────────────── //
+    "editor.rulers": [ 255 ],
     "editor.codeLens": false,
     "editor.showFoldingControls": "always",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.links": true,
+    "window.density.editorTabHeight": "default",
+    "window.menuBarVisibility": "compact",
     "html.format.indentInnerHtml": true,
     "html.format.wrapLineLength": 240,
     "html.format.unformatted": "doc.tabler,doc.listr,doc.code",
+    "css.format.enable": false,
+    "js/ts.implicitProjectConfig.checkJs": true,
     "json.format.keepLines": true,
-    "php.validate.enable": false,
-    "php.validate.executablePath": "C:\\\\Users\\\\junio\\\\Documents\\\\VS Code PHP\\\\php.exe",
+    "js/ts.tsserver.node.path": "node",
+    "php.validate.enable": true,
+    "php.validate.executablePath": "php",
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "dotnet.codeLens.enableReferencesCodeLens": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.startupEditor": "none",
-    "js/ts.implicitProjectConfig.checkJs": true,
-    "css.format.enable": false,
-    "git.ignoreMissingGitWarning": true,
-    "security.workspace.trust.untrustedFiles": "open",
-    "security.workspace.trust.enabled": false,
-    "dotnet.codeLens.enableReferencesCodeLens": false,
-    "git.openRepositoryInParentFolders": "never",
     "workbench.layoutControl.enabled": false,
     "workbench.navigationControl.enabled": false,
     "workbench.editor.wrapTabs": true,
     "workbench.editor.pinnedTabsOnSeparateRow": true,
-    "window.density.editorTabHeight": "compact",
     "workbench.secondarySideBar.defaultVisibility": "hidden",
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Shortcut Menu Bar
-    "ShortcutMenuBar.beautify": false,
-    "ShortcutMenuBar.openFilesList": false,
-    "ShortcutMenuBar.save": true,
-    "ShortcutMenuBar.saveAll": true,
-    "ShortcutMenuBar.toggleTerminal": false,
-    "ShortcutMenuBar.navigateForward": false,
-    "ShortcutMenuBar.navigateBack": false,
-    "[csharp]": {
-        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    "workbench.startupEditor": "none",
+    "git.repositoryScanMaxDepth": -1,
+    "scm.diffDecorationsGutterPattern": {
+        "added": true
     },
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: VSCode Icons
+    "git.openRepositoryInParentFolders": "always",
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "github.copilot.nextEditSuggestions.extendedRange": false,
+    "github.copilot.nextEditSuggestions.fixes": false,
+    // ─────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Commands ─────────────────────────────── //
+    "commands.commands": {
+        // More Codicons To Commands At: https://code.visualstudio.com/api/references/icons-in-labels
+        "Open or Run Command": {
+            "icon": "record-keys",
+            "command": "workbench.action.showCommands"
+        },
+        "Open User Settings JSON": {
+            "icon": "gear",
+            "command": "workbench.action.openSettingsJson"
+        },
+        "Open Workbench Settings JSON": {
+            "icon": "root-folder",
+            "command": "workbench.action.openWorkspaceSettingsFile"
+        },
+        "Fold All Regions": {
+            "icon": "folding-expanded",
+            "command": "editor.foldAllMarkerRegions"
+        },
+        "Unfold All Regions": {
+            "icon": "folding-collapsed",
+            "command": "editor.unfoldAllMarkerRegions"
+        },
+        "Refresh Files Explorer": {
+            "icon": "folder-library",
+            "command": "workbench.files.action.refreshFilesExplorer"
+        }
+    },
+    // ─────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Command Launcher ───────────────────────────────//
+    "command-launcher.commands": {
+        // More Codicons To Commands At: https://code.visualstudio.com/api/references/icons-in-labels
+        "Runtime Checks": {
+            "type": 2,
+            "label": "$(notebook-kernel-select)",
+            "description": "",
+            "Check System Node.js Version": {
+                "command": "node -v",
+                "type": 3,
+                "label": "$(extensions)",
+                "description": ""
+            },
+            "Check System PHP Version": {
+                "command": "php -v",
+                "type": 3,
+                "label": "$(package)",
+                "description": ""
+            }
+        }
+    },
+    // ─────────────────────────────── SETTINGS FOR VSCODE EXTENSION: VSCode Statusbar Commands ─────────────────────────────── //
+    "statusbarCommands.commands": [
+        // More Codicons To Commands At: https://code.visualstudio.com/api/references/icons-in-labels
+        {
+            "statusBarText": "$(terminal) PowerShell",
+            "command": "workbench.action.terminal.toggleTerminal",
+            "tooltipText": "Open the PowerShell"
+        },
+        {
+            "statusBarText": "$(vm-running) Run on PowerShell",
+            "command": "workbench.view.extension.command-launcher",
+            "tooltipText": "Open the Commands for PowerShell"
+        },
+        {
+            "statusBarText": "$(default-view-icon) Run on VS Code",
+            "command": "commands.tree.focus",
+            "tooltipText": "Open the Commands for VS Code"
+        },
+        {
+            "statusBarText": "$(output) Output",
+            "command": "workbench.action.output.toggleOutput",
+            "tooltipText": "Open the Output"
+        }
+    ],
+    "statusbarCommands.alignment": "Left",
+    // ─────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Workspace Name in Status Bar ─────────────────────────────── //
+    "workspaceInStatusBar.alignment": "right",
+    "workspaceInStatusBar.priority": 999999,
+    // ─────────────────────────────── SETTINGS FOR VSCODE EXTENSION: VSCode Icons ─────────────────────────────── //
+    "workbench.iconTheme": "vscode-icons",
     "vsicons.dontShowNewVersionMessage": true,
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Path Autocomplete
+    // ─────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Path Autocomplete ─────────────────────────────── //
     "path-autocomplete.excludedItems": {
         "**/*.meta": {
             "when": "**"
         }
     },
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Color Highlight
+    // ─────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Color Highlight ─────────────────────────────── //
     "color-highlight.languages": [
         "*"
     ],
     "color-highlight.markRuler": false,
     "color-highlight.matchWords": true,
     "color-highlight.markerType": "underline",
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Color Picker Universal
+    // ─────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Color Picker Universal ─────────────────────────────── //
     "color-picker-universal.avoidDuplicate": true,
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: VSRegex
-    "VSRegex.outlineWidth": 1,
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Open In Browser
-    "open-in-browser.default": "Microsoft Edge",
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: PHP Intelephense
-    "intelephense.completion.maxItems": 125,
-    "intelephense.format.enable": false,
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: HTML CSS Support
-    "css.enabledLanguages": [ "html", "htm", "php" ],
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Auto Rename Tag
+    // ─────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Auto Rename Tag ─────────────────────────────── //
     "auto-rename-tag.activationOnLanguage": [ "*" ],
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: JSON
-    "JSON-zain.json.autorefresh": true,
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Text Marker (Highlighter)
+    // ─────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Markdown All In One ─────────────────────────────── //
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.completion.enabled": true,
+    // ─────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Text Marker (Highlighter) ─────────────────────────────── //
     "textmarker.savedHighlights": [
         {
             "pattern": {
@@ -90,56 +201,6 @@
     "textmarker.defaultHighlightOpacity": 0.3,
     "textmarker.enableTelemetry": false,
     "textmarker.hideStatusBarItems": true,
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Markdown All In One
-    "markdown.extension.preview.autoShowPreviewToSide": true,
-    "markdown.extension.completion.enabled": true,
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Unity
-    "vstuc.displayBackgroundProcesses": true,
-    "vstuc.refreshOnSave": true,
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Active File In Status Bar
-    "ActiveFileInStatusBar.color": "#B1B1B1",
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: VSCode Statusbar Commands
-    "statusbarCommands.commands": [
-        // More Codicons To Commands At https://code.visualstudio.com/api/references/icons-in-labels
-        {
-            "statusBarText": "$(settings)",
-            "command": "workbench.action.openWorkspaceSettingsFile",
-            "tooltipText": "Open the Workspace Settings JSON",
-            "color": "#EBEBEB"
-        },
-        {
-            "statusBarText": "$(gear)",
-            "command": "workbench.action.openSettingsJson",
-            "tooltipText": "Open the VS Code Settings JSON",
-            "color": "#EBEBEB"
-        },
-        {
-            "statusBarText": "$(console) Output",
-            "command": "workbench.action.output.toggleOutput",
-            "tooltipText": "Open the Output",
-            "color": "#EBEBEB"
-        },
-        {
-            "statusBarText": "$(chevron-up) Fold Regions",
-            "command": "editor.foldAllMarkerRegions",
-            "tooltipText": "Fold all Regions in this file...",
-            "color": "#EBEBEB"
-        },
-        {
-            "statusBarText": "$(chevron-down) Unfold Regions",
-            "command": "editor.unfoldAllMarkerRegions",
-            "tooltipText": "Unfold all Regions in this file...",
-            "color": "#EBEBEB"
-        }
-    ],
-    "statusbarCommands.alignment": "Left",
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Project Name in StatusBar
-    "projectNameInStatusBar.align": "left",
-    "projectNameInStatusBar.alignPriority": 999999,
-    "projectNameInStatusBar.textStyle": "uppercase",
-    // ───────────────────────────────────────────── SETTINGS FOR VSCODE EXTENSION: MySQL / Database Client JDBC
-    "database-client.autoSync": true,
-    "database-client.highlightSQLBlock": true,
-    "database-client.capitalizeKeywordsWhenFormatting": true,
-    "database-client.saveConnectionExpandedState": true
+    // ─────────────────────────────── SETTINGS FOR VSCODE EXTENSION: Unity ───────────────────────────────//
+    "vstuc.displayBackgroundProcesses": true
 }
