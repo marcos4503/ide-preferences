@@ -8,6 +8,7 @@ Layouts in screenshots.
 ### VS Code
 
 <img src="This-Repository/vs-code-1.png" />
+<img src="This-Repository/vs-code-2.png" />
 
 ### Visual Studio 2026
 
